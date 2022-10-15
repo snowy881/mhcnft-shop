@@ -11,9 +11,9 @@ const MarketplaceWithUrl: React.FC = () => {
     <DesContainer>
       <Stat
         candyShop={candyShop}
-        title={"Marketplace"}
+        title={"MHCNFT Marketplace"}
         description={
-          "You can use a single NFT order URL instead of a buy modal."
+          "Here you can use a single NFT order URL instead of a buy modal."
         }
         style={{ paddingBottom: 50 }}
       />
