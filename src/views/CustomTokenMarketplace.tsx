@@ -22,8 +22,8 @@ const CustomTokenMarketplace: React.FC = () => {
       env: NETWORK,
       // pass additional settings param to configure shop display
       settings: {
-        currencySymbol: "LQN",
-        currencyDecimals: 9,
+        currencySymbol: "MHCNFT",
+        currencyDecimals: 3,
         priceDecimals: 3,
         volumeDecimals: 1,
       },
@@ -34,9 +34,9 @@ const CustomTokenMarketplace: React.FC = () => {
     <DesContainer>
       <Stat
         candyShop={candyShopRef.current}
-        title={"Marketplace"}
+        title={"MHC NFT Marketplace"}
         description={
-          "Candy Shop supports custom SPL tokens as currency. Just specify your token symbol and decimals."
+          "The official marketplace to trade NFTs with $MHCNFT"
         }
         style={{ paddingBottom: 50 }}
       />
