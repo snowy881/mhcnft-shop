@@ -11,9 +11,9 @@ const MarketplaceWithFilter: React.FC = () => {
     <DesContainer>
       <Stat
         candyShop={candyShop}
-        title={"Marketplace"}
+        title={"MHCNFT Marketplace"}
         description={
-          "Enable users to filter by collections and search for NFTs."
+          "Filter by collection and search for your favorite NFTs."
         }
         style={{ paddingBottom: 50 }}
       />
@@ -32,8 +32,7 @@ const MarketplaceWithFilter: React.FC = () => {
 export default MarketplaceWithFilter;
 
 const FILTERS = [
-  { name: "Puppies", collectionId: "1", identifier: 2036309415 },
-  { name: "Shibas", collectionId: "2", identifier: 1235887132 },
+  
 ];
 
 const DesContainer = styled.div`
