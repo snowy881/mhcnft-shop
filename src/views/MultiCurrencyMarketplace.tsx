@@ -40,9 +40,9 @@ const MultiCurrencyMarketplace: React.FC = () => {
     <DesContainer>
       <Stat
         candyShop={candyShop}
-        title={"Marketplace"}
+        title={"MHCNFT Marketplace"}
         description={
-          "Candy Shop is an open source on-chain protocol that empowers DAOs, NFT projects and anyone interested in creating an NFT marketplace to do so within minutes!"
+          "The official marketplace to trade NFTs with $MHCNFT"
         }
         style={{ paddingBottom: 50 }}
       />
