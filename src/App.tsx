@@ -25,9 +25,6 @@ import { CurrencyProvider } from "./components/Currency";
 import Marketplace from "./views/Marketplace";
 import CustomTokenMarketplace from "./views/CustomTokenMarketplace";
 import MarketplaceWithFilter from "./views/MarketplaceWithFilter";
-import MarketplaceWithUrl from "./views/MarketplaceWithUrl";
-import MultiCurrencyMarketplace from "./views/MultiCurrencyMarketplace";
-import MultiCurrencySell from "./views/MultiCurrencySell";
 import MyCollection from "./views/MyCollection";
 import SingleOrder from "./views/SingleOrder";
 import AuctionsView from "./views/AuctionsView";
@@ -71,15 +68,15 @@ const currencyOptions = [
     treasuryMint: "So11111111111111111111111111111111111111112",
     currencyDecimals: 9,
     priceDecimals: 3,
-    volumeDecimals: 1,
+    volumeDecimals: 8,
     mainnetConnectionUrl: RPC_HOST,
   },
   {
-    currencySymbol: "56p",
-    treasuryMint: "56pdaHboK66cxRLkzkYVvFSAjfoNEETJUsrdmAYaTXMJ",
-    currencyDecimals: 9,
-    priceDecimals: 2,
-    volumeDecimals: 1,
+    currencySymbol: "MHCNF",
+    treasuryMint: "5Kw6JUp9emPRHPnE1VWxvdGiHNpUkEJyuMCgy9Qo1fHQ",
+    currencyDecimals: 3,
+    priceDecimals: 9,
+    volumeDecimals: 8,
     mainnetConnectionUrl: RPC_HOST,
   },
 ];
