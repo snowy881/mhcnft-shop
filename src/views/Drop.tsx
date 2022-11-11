@@ -9,13 +9,12 @@ const Drop: React.FC = () => {
 
   return (
     <DesContainer>
-      <h1 style={{ marginTop: 40, marginBottom: 15 }}>Edition Drops</h1>
+      <h1 style={{ marginTop: 40, marginBottom: 15 }}>NFT Drops</h1>
       <p>
-        Edition drops allow you to mint limited edition serialized NFT
-        collections from your favourite content creators.
+        View NFTs dropping on our marketplace.
       </p>
       <p style={{ marginBottom: 40 }}>
-        Note: Shop owners can create edition drops in the{" "}
+       
         <a
           href="https://candy.liqnft.com/shop/drops"
           target="_blank"
