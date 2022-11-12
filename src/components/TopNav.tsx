@@ -91,8 +91,6 @@ const TopNav: React.FC<TopNavProps> = ({ showCurrencyToggle = false }) => {
                 </MenuList>
               </ClickAwayListener>
             </Paper>
-          </Popper>
-        </DropdownAnchor>
       </Menu>
       {showCurrencyToggle && <CurrencyToggle />}
       <Wallet>
