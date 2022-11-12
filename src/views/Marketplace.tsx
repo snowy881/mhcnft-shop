@@ -13,7 +13,7 @@ const Marketplace: React.FC = () => {
         candyShop={candyShop}
         title={"MHC NFT Marketplace"}
         description={
-          "The official marketplace to trade NFTs with $MHCNWS"
+          "The official marketplace to trade NFTs with $MHCNFT"
         }
         style={{ paddingBottom: 50 }}
       />
