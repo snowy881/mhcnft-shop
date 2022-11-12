@@ -182,33 +182,7 @@ const App = () => {
                           </>
                         }
                       />
-                      <Route
-                        path={RouteName.marketplaceWithUrl}
-                        element={
-                          <>
-                            <TopNav />
-                            <MarketplaceWithUrl />
-                          </>
-                        }
-                      />
-                      <Route
-                        path={RouteName.multipleCurrencyMarketplace}
-                        element={
-                          <>
-                            <TopNav showCurrencyToggle={true} />
-                            <MultiCurrencyMarketplace />
-                          </>
-                        }
-                      />
-                      <Route
-                        path={RouteName.multipleCurrencySell}
-                        element={
-                          <>
-                            <TopNav showCurrencyToggle={true} />
-                            <MultiCurrencySell />
-                          </>
-                        }
-                      />
+                     
                     </Routes>
                   </MainContainer>
                 </main>
