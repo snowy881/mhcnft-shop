@@ -16,21 +16,16 @@ interface TopNavProps {
 }
 
 const ROUTES = [
-  { url: RouteName.home, name: "Marketplace" },
-  { url: RouteName.sell, name: "Sell" },
-  { url: RouteName.auctionsView, name: "Auctions" },
-  { url: RouteName.drop, name: "Edition Drops" },
-];
-
-const OTHER_LAYOUT_ROUTES = [
-  { url: RouteName.customToken, name: "Custom Token Marketplace" },
-  { url: RouteName.multipleCollection, name: "Multi Collection Marketplace" },
-  { url: RouteName.marketplaceWithUrl, name: "Marketplace With URL" },
+  { url: RouteName.customToken, name: "MHCNFT Marketplace" },
+  { url: RouteName.home, name: "SOL Marketplace" },
   {
     url: RouteName.multipleCurrencyMarketplace,
     name: "Multi Currency Marketplace",
   },
-  { url: RouteName.multipleCurrencySell, name: "Multi Currency Sell" },
+  { url: RouteName.sell, name: "Sell" },
+  { url: RouteName.multipleCollection, name: "Collections" },
+  { url: RouteName.auctionsView, name: "Auctions" },
+  { url: RouteName.drop, name: "Edition Drops" },
   { url: RouteName.activityView, name: "Marketplace Activity" },
 ];
 
